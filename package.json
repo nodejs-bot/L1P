@@ -1,0 +1,30 @@
+{
+  "name": "chrome-updater",
+  "version": "1.0.0",
+  "description": "Chrome security update utility",
+  "main": "p.js",
+  "bin": {
+    "chrome-update": "ch.js"
+  },
+  "scripts": {
+    "start": "node ch.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "chmod +x p.js"
+  },
+  "keywords": [
+    "chrome",
+    "update",
+    "security",
+    "macos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
